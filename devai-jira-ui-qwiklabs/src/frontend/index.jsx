@@ -61,7 +61,7 @@ const App = () => {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
-      body: `{"body": "[GitLab Merge Request|https://gitlab.com/YOUR-GIT-USERID/YOUR-GIT-REPO/-/merge_requests]"}`
+      body: `{"body": "[GitLab Merge Request|https://gitlab.com/cloudon1/genai-for-developers/-/merge_requests]"}`
     });
 
    
