@@ -17,3 +17,11 @@ app:
   runtime:
     name: nodejs18.x
   id: ari:cloud:ecosystem::app/e146c88a-804a-4c2b-8a8f-bdc7d5fb4b8a
+permissions:
+  scopes:
+    - read:jira-work
+    - write:jira-work
+  external:
+    fetch:
+      client:
+        - devai-api-nzd7wlluha-uc.a.run.app # example
